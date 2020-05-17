@@ -1,0 +1,258 @@
+.de_container {
+    margin-top: 25px;
+}
+.crumb_wrap .first {
+    padding-left: 0;
+}
+
+.crumb_wrap a,
+.crumb_wrap i {
+    padding: 0 5px;
+}
+.preview_wrap {
+    width: 409px;
+    height: 559px;
+}
+.preview_img {
+    width: 408px;
+    height: 400px;
+    border: 1px solid #ccc;
+}
+.preview_items {
+    width: 100%;
+    height: 60px;
+    margin-top: 64px;
+}
+.preview_items ul {
+    padding-left: 20px;
+}
+.preview_items li {
+    float: left;
+    margin-right: 2px;
+}
+.preview_items li i {
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #dddddd;
+}
+.preview_others {
+    width: 100%;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 18px;
+}
+.attention,
+.share,
+.compare {
+    padding: 0 28px;
+}
+.itemInfo_wrap {
+    width: 780px;
+}
+.sku_name {
+    width: 100%;
+    height: 34px;
+    font-size: 16px;
+    color: #333333;
+}
+.news {
+    height: 32px;
+    font-size: 12px;
+    color: #e12228;
+}
+.price,
+.promotion,
+support,
+distribution{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    background-color: #fee9eb;
+}
+.price dd em {
+    font-size: 24px;
+    color: #e12228;
+    font-weight: 700;
+}
+.price dd span {
+    color: #c81623;
+}
+.itemInfo_wrap dt {
+    float: left;
+    width: 41px;
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+}
+.promotion {
+    height: 84px;
+}
+.promotion dt {
+    height: 84px;
+}
+.promotion dd {
+    width: 543px;
+}
+.distribution {
+    border-bottom: 1px solid #ededed;
+}
+.support span,
+.distribution span{
+    color: #999999;
+}
+.distribution dt {
+    height: 42px;
+}
+.support,
+.distribution{
+    padding-bottom: 18px;
+}
+.choose {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    margin: 12px 0;
+}
+.choose dt {
+    float: left;
+    width: 50px;
+    height: 44px;
+    margin-right: 3px;
+}
+.choose dd {
+    float: left;
+    width: 80px;
+    height: 41px;
+    line-height: 41px;
+    border: 1px solid #ededed;
+    margin-left: 8px;
+    text-align: center;
+    background-color: #f7f7f7;
+    color: #333333;
+}
+.choose_btns {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+}
+.choose_btns dt {
+    float: left;
+    width: 49px;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #cccccc;
+
+}
+.choose_btns dt .btn {
+    float: left;
+    width: 33px;
+    height: 44px;
+    line-height: 44px;
+}
+.choose_btns dt .ck {
+    float: left;
+    width: 15px;
+    height: 44px;
+    border-left: 1px solid #ccc;
+}
+.add {
+    height: 22px;
+    border-bottom: 1px solid #ccc;
+}
+.add,
+.reduce {
+    line-height: 22px;
+}
+.choose_btns dd {
+    float: left;
+}
+.choose_btns dd a {
+    display: block;
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    margin-left: 11px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.aside {
+    overflow: hidden;
+    width: 208px;
+    border: 1px solid #ccc;
+    border-collapse:collapse;
+}
+.tab_list {
+    /*overflow: hidden;*/
+    height: 33px;
+    text-align: center;
+}
+.tab_list ul {
+    width: 210px;
+}
+.tab_list li {
+    float: left;
+    width: 104px;
+    height: 33px;
+    line-height: 33px;
+    line-height: 33px;
+    text-align: center;
+    background-color: #f1f1f1;
+    /*width: 50%;*/
+}
+.tab_list .current {
+    background-color: #ffffff;
+    color: #c81623;
+    border-bottom: 0;
+}
+.tab_list .second_tab {
+    border-left: 1px solid #ccc;
+}
+.tab_con {
+    /*height: 184px;*/
+    padding: 0 10px;
+}
+.tab_con li {
+    float: left;
+    width: 93px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    border-bottom: 1px dashed #ccc;
+}
+.tab_con .last {
+    border-bottom: 0;
+}
+.tab_con .word {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+}
+.pro_show li {
+    float: left;
+    width: 100%;
+    height: 217px;
+}
+.pro_show li p {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pro_show li em {
+    display: block;
+    /*text-align: left;*/
+    float: left;
+    font-weight: 700;
+}
+.pro_show li a {
+    display: block;
+    width: 88px;
+    height: 26px;
+    border: 1px solid #ccc;
+    margin: 20px auto 0;
+    text-align: center;
+    line-height: 26px;
+}
