@@ -1,0 +1,283 @@
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.style-red {
+    color: #c81623;
+}
+
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+    /*text-align: center;*/
+}
+.shortcut .fr li {
+    float: left;
+    padding: 0 9px;
+}
+.shortcut .fr .space {
+    float: left;
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    padding: 0;
+    margin-top: 10px;
+}
+.sc_arrow {
+    float: left;
+    font-family: icomoon;
+    padding-right: 6px;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.header {
+    position: relative;
+    height: 54px;
+    margin-top: 27px;
+}
+.header .logo {
+
+}
+.header .logo h1 a{
+    display: block;
+    width: 175px;
+    height: 56px;
+    font-size: 0;
+}
+.header .logo img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.saerch {
+    position: absolute;
+    top: 0;
+    left: 346px;
+}
+.saerch input {
+    float: left;
+    width: 445px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    border-right: none;
+    font-size: 14px;
+    color: #ccc;
+    padding-left: 10px;
+}
+.saerch button {
+    float: left;
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}
+.hot {
+    position: absolute;
+    top: 42px;
+    left: 346px;
+}
+.hot a {
+    padding: 0 13px;
+}
+.hot .style-lred {
+    color: #c81623;
+}
+.shopcar {
+    position: absolute;
+    top: 0;
+    right: 64px;
+    width: 138px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    background-color: #f7f7f7;
+    font-size: 12px;
+    color: #666666;
+}
+.shopcar .car {
+    font-family: icomoon;
+    color: red;
+}
+.shopcar .s_arrow {
+    font-family: icomoon;
+}
+.shopcar .num {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 104px;
+    height: 14px;
+    line-height: 14px;
+    background-color: #e60012;
+    padding: 0 3px;
+    font-size: 12px;
+    color: #fff;
+    border-radius:7px 7px 7px 0;
+}
+.nav {
+    height: 45px;
+    margin-top: 24px;
+    border-bottom: 2px solid #b1191a;
+}
+.nav_l {
+    float: left;
+    width: 209px;
+    /*height: 500px;*/
+}
+.nav dt {
+    width: 209px;
+    height: 45px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+}
+.nav dd {
+    width: 209px;
+    height: 466px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+.nav dd li {
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+}
+.nav dd li i {
+    position: absolute;
+    right: 0;
+    margin-right: 11px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    font-family: icomoon;
+}
+.nav dd li a {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.5s;
+}
+.nav dd li:hover {
+    background-color: #fff;
+    color: #c81623;
+}
+.nav dd li:hover a {
+    color: #c81623;
+    /*background-color: #fff;*/
+    margin-left: 20px;
+}
+.nav_item {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 10px;
+}
+.nav_item li {
+    float: left;
+    padding: 0 26px;
+}
+.nav_item li a {
+    font-size: 16px;
+    color: #333333;
+}
+.nav_item li a:hover {
+    color: #c81623;
+}
+
+.footer {
+    height: 417px;
+    background-color: #f5f5f5;
+}
+.copyright {
+    height: 109px;
+    border-bottom: 1px solid #ededed;
+}
+.cr_box {
+    float: left;
+    width: 20%;
+    height: 109px;
+}
+.cr_box_zheng,
+.cr_box_ji,
+.cr_box_wu,
+.cr_box_te,
+.cr_box_bang{
+    float: left;
+    width: 51px;
+    height: 50px;
+    line-height: 50px;
+    background: url("../img/icons.png" ) no-repeat;
+    margin-left: 37px;
+    margin-top: 30px;
+}
+.cr_box_zheng {
+    background-position: -252px -2px;
+}
+.cr_box_ji {
+    background-position: -255px -54px;
+}
+.cr_box_wu {
+    background-position: -255px -105px;
+}
+.cr_box_te {
+    background-position: -256px -157px;
+}
+.cr_box_bang {
+    background-position: -257px -209px;
+}
+.cr_box .cr_box_con {
+    float: left;
+    width: 130px;
+    height: 50px;
+    margin-top: 37px;
+    margin-left: 5px;
+}
+.guide {
+    height: 167px;
+    border-bottom: 1px solid #ededed;
+    padding-top: 20px;
+}
+.guide .guide_item {
+    float: left;
+    margin-left: 52px;
+    margin-right: 80px;
+}
+.guide_item dt {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+.guide_item dd {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #666666;
+}
+.guide_help {
+    float: left;
+    text-align: center;
+}
+.links {
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+}
+.links .link {
+    margin-top: 20px;
+}
+.links .address {
+    margin-top: 16px;
+    margin-bottom: 9px;
+}

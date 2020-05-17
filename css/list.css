@@ -1,0 +1,90 @@
+.sk {
+    position: absolute;
+    top: 16px;
+    left: 199px;
+    width: 42px;
+    height: 36px;
+    border-left: 1px solid #b1191a;
+    padding-left: 15px;
+}
+.nav_item-l {
+    float: left;
+}
+.nav_item-l li{
+    float: left;
+    margin: 0 29px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+.nav_item-r {
+    float: left;
+}
+.nav_item-r li {
+    float: left;
+    margin: 2px 24px 0;
+    font-size: 14px;
+    color: #666666;
+}
+.list li {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 264px;
+    height: 448px;
+    margin-right: 30px;
+    border: 1px solid transparent;
+}
+.list li:hover {
+    border: 1px solid #e60012;
+}
+.ad {
+    width: 1200px;
+    height: 120px;
+}
+.word {
+    padding: 0 12px;
+}
+
+.word .title {
+    font-size: 14px;
+    color: #666666;
+}
+.price em {
+    font-size: 22px;
+    color: #e60012;
+    font-weight: 700;
+}
+.countbar {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    /*background-color: transparent;*/
+    border-radius:6px;
+    border: 1px solid #ed282e;
+    border-left: 0;
+}
+.percentage {
+    width: 87%;
+    height: 12px;
+    background-color: #ed282e;
+    border-radius:6px;
+}
+.buy {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #ed282e;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+}
+.buy:hover {
+    color: #ffffff;
+}
+.footer {
+    margin-top: 30px;
+}
